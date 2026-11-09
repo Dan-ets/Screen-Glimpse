@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Glimpse",
+  "version": "1.1",
+  "description": "Full-page screenshot capture and equal-height screen slicing tool without debugger.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Screen Glimpse",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
